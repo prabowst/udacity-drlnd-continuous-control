@@ -2,7 +2,7 @@
 
 This project entails a submisison for Udacity's Deep Reinforcement Learning Nanodegree Program: Project 2 - Continuous Control.
 
-![Env](figures/banana.png)
+![Env](figures/reacher.gif)
 
 This project entails training a double-jointed arm in order to move to target locations. 
 
@@ -61,7 +61,7 @@ There are several requirements in order to run this project.
 
 The notebook Continuous_Control_Multi_Agent.ipynb can be executed to train an agent. In training the agent, a policy based method is used. This method is called Deep Deterministic Policy Gradient (DDPG) where it implements a policy method with 2 networks, Actor and Critic. The method also implements replay buffer so that the agent can learn from random sampled experience. An implementation of Ornstein Uhlenbeck Noise (OUNoise) is also seen in this project. This is to enforce exploration (coupled with decaying epsilon values) within the training process of continuous control system. 
 
-**Execute Navigation.ipynb to train the agent using both DQN and DDQN.**
+**Execute Continuous_Control_Multi_Agent.ipynb to train the agent using DDPG.**
 
 ### Files<a name="files"></a>
 
@@ -77,6 +77,7 @@ The notebook Continuous_Control_Multi_Agent.ipynb can be executed to train an ag
 
 - figures
 |- ddpg_multi_agent.png # plot of multi agent scores
+|- reacher.gif # environment overview
 
 - saved_model
 |- DDPG_actor_multi_agents.pth # model's weight for DDPG actor
