@@ -68,6 +68,7 @@ The notebook Continuous_Control_Multi_Agent.ipynb can be executed to train an ag
 ```
 - Continuous_Control_Multi_Agent.ipynb # main notebook containing the training process and watching smart agent
 - README.md
+- Report.pdf # the report of the continuous control project, contains proeject approach, discussion, and future improvements
 
 - ddpgarm
 |- __init__.py 
